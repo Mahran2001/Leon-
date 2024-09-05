@@ -8,6 +8,7 @@
 * {
   box-sizing: border-box;
   text-transform: capitalize;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "work sans", sans-serif;
@@ -413,21 +414,21 @@ body {
 }
 @media (max-width: 767px) {
   .contact .info .link,
-  .contact .info .label{
+  .contact .info .label {
     font-size: 25px;
   }
 }
 /* <!-- end contact --> */
 /* <!-- start footer --> */
-.footer{
+.footer {
   background-color: var(--secondary-color);
   color: white;
   padding: 30px 10px;
   text-align: center;
   font-size: 18px;
 }
-.footer span{
- font-weight: bold;
- color: var(--main-color); 
+.footer span {
+  font-weight: bold;
+  color: var(--main-color);
 }
 /* <!-- end footer --> */
